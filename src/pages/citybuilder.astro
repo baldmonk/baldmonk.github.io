@@ -28,11 +28,6 @@ import { getCollection } from "astro:content";
   
     <div class="divider my-0" />
   </div>
-
-
-  <text class="text-lg">
-    Recently 
-</text>
 <div>
   <div class="mb-5"></div>
 </div>
@@ -50,13 +45,13 @@ import { getCollection } from "astro:content";
     <div class="mb-5"></div>
   </div>
   <text class="text-lg">
-    Within the last month I have begun development on my most ambitious personal project, with the goal of a steam release by Christmas. The goal of the project is to create a multiplayer island builder, borrowing heavily from Islanders as well as TfT and other competitive online games. When I began the project I had to think carefully about which multiplayer networking solution I was going to use. I ended up settling on Unity’s Netcode for GameObjects as it was up to date and had easy integration with Unity’s other UGS Services such as Lobby which I also required.
+    Within the last month I have begun development on my most ambitious personal project, with the goal of a steam release by Christmas. The goal of the project is to create a multiplayer island builder, borrowing heavily from Islanders, TFT and other competitive online games. I want to keep the gameplay simple, with only one currency and adjacency is the only way to score points. When I began the project I had to think carefully about which multiplayer networking solution to use. I ended up settling on Unity’s Netcode for GameObjects as it was up to date and had easy integration with Unity’s other UGS Services such as Lobby which I also required.
   </text>
   <div>
     <div class="mb-5"></div>
   </div>
   <text class="text-lg">
-    Although learning the architecture of a multiplayer game was difficult, I quickly got to grips with the tools to solve the problems, such as RCP’s and network variables. Within 3 weeks I had completed a working prototype with online play and the basic gameplay loop created.
+    Although learning the architecture of a multiplayer game was difficult, I quickly got to grips with the tools to solve the problems, such as RCP’s and network variables. Within 3 weeks I had completed a working prototype with online play and the basic gameplay loop created. More recently I have overhalled the visuals, working hard in blender to create low poly art, and added a perk system as shown below.
   </text>
   </div>
   <div>
@@ -69,7 +64,7 @@ import { getCollection } from "astro:content";
   </div>
 </div>
 <text class="text-lg">
-  As Well as fully coding the game mechanics, I used 0 coding assets on the project. I also spent some time learning how to create low poly art in Blender and created all of the visuals myself apart from the water. All clients are fully synced up over the internet between states using one user as the game host to avoid unnecessary dedicated server costs. The users may join a lobby and when all players are ready the host may start the game. This uses Unity’s Lobby system. The game uses the Unity Relay system to connect the clients over the internet to the hosts game and then the game begins.
+All clients are fully synced up over the internet between states using one user as the game host to avoid unnecessary dedicated server costs. The users may join a lobby and when all players are ready the host may start the game. This uses Unity’s Lobby system. I then use the Unity Relay system to connect the clients over the internet to the hosts game. Most of my development time so far has been spent creating the systems to allow easy scaling of gameplay assets in the future. To do this I have created many Scriptable Objects as I believe they are a powerful way to hold data.
 
 </text>
 <div>
@@ -78,9 +73,12 @@ import { getCollection } from "astro:content";
 <div>
   <div class="text-3xl w-full">Future Plans</div>
 </div>
+<div>
+  <div class="mb-5"></div>
+</div>
 <text class="text-lg">
   <text class="text-lg">
-    Soon I will work on polish and game feel, to make placing buildings feel juicier. I will also create some low poly building models. I also need to improve the gameplay loop as the player needs more impactful decisions to help gain the upper hand against other competitors throughout the game. Finally, I working on fully randomised islands to keep the experience intresting.
+    Soon I will work on polish and game feel, to make placing buildings feel juicier. I will also create some low poly building models. I also need to improve the gameplay loop as the player needs more impactful decisions to help gain the upper hand against other competitors throughout the game. Finally, I am working on fully randomised islands to keep the experience intresting. If I continue at my current pace I should have a finished version for release by December.
   </text>
 
 </text>
