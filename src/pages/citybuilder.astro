@@ -51,7 +51,12 @@ import { getCollection } from "astro:content";
   </div>
   <text class="text-lg">
     Within the last month I have begun development on my most ambitious personal project, with the goal of a steam release by Christmas. The goal of the project is to create a multiplayer island builder, borrowing heavily from Islanders as well as TfT and other competitive online games. When I began the project I had to think carefully about which multiplayer networking solution I was going to use. I ended up settling on Unity’s Netcode for GameObjects as it was up to date and had easy integration with Unity’s other UGS Services such as Lobby which I also required.
-Although learning the architecture of a multiplayer game was difficult, I quickly got to grips with the tools to solve the problems, such as RCP’s and network variables. Within 3 weeks I had completed a working prototype with online play and the basic gameplay loop created.
+  </text>
+  <div>
+    <div class="mb-5"></div>
+  </div>
+  <text class="text-lg">
+    Although learning the architecture of a multiplayer game was difficult, I quickly got to grips with the tools to solve the problems, such as RCP’s and network variables. Within 3 weeks I had completed a working prototype with online play and the basic gameplay loop created.
   </text>
   </div>
   <div>
@@ -63,12 +68,20 @@ Although learning the architecture of a multiplayer game was difficult, I quickl
     <div class="mb-5"></div>
   </div>
 </div>
+<text class="text-lg">
+  As Well as fully coding the game mechanics, I used 0 coding assets on the project. I also spent some time learning how to create low poly art in Blender and created all of the visuals myself apart from the water. All clients are fully synced up over the internet between states using one user as the game host to avoid unnecessary dedicated server costs. The users may join a lobby and when all players are ready the host may start the game. This uses Unity’s Lobby system. The game uses the Unity Relay system to connect the clients over the internet to the hosts game and then the game begins.
+
+</text>
+<div>
+  <div class="mb-5"></div>
+</div>
 <div>
   <div class="text-3xl w-full">Future Plans</div>
 </div>
 <text class="text-lg">
-  As Well as fully coding the game mechanics, I used 0 coding assets on the project. I also spent some time learning how to create low poly art in Blender and created all of the visuals myself apart from the water. All clients are fully synced up over the internet between states using one user as the game host to avoid unnecessary dedicated server costs. The users may join a lobby and when all players are ready the host may start the game. This uses Unity’s Lobby system. The game uses the Unity Relay system to connect the clients over the internet to the hosts game and then the game begins.
-  Soon I will work a lot on polish and game feel, to make placing buildings feel juicier. I will also create real building models so there is less placeholder art in the game. I also need to improve the gameplay loop as the player needs more impactful decisions to help gain the upper hand against other competitors throughout the game. I am also working on fully randomised islands to keep the experience intresting.
+  <text class="text-lg">
+    Soon I will work on polish and game feel, to make placing buildings feel juicier. I will also create some low poly building models. I also need to improve the gameplay loop as the player needs more impactful decisions to help gain the upper hand against other competitors throughout the game. Finally, I working on fully randomised islands to keep the experience intresting.
+  </text>
 
 </text>
 </div>
